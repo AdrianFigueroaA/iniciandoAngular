@@ -7,7 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PruebaComponent implements OnInit {
 
-  constructor() { }
+  public titulo: string;
+  public subtitulo : string;
+  public edad :number;
+
+  constructor() {
+
+
+    this.titulo = "luna";
+    this.subtitulo = "gata pesada";
+    this.edad = 4;
+
+   }
+
+
 
   ngOnInit(): void {
   }
